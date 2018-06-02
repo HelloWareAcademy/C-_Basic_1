@@ -1,0 +1,28 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+
+    Console.WriteLine("What is 3 + 5?");
+	Console.WriteLine("A) 5");
+    Console.WriteLine("B) 6");
+    Console.WriteLine("C) 7");
+    Console.WriteLine("D) 8");
+	string question =	Console.ReadLine();
+
+    switch(question)
+    {
+      case "a":
+      case "b":
+      case "c":
+          Console.WriteLine("incorrect");
+          break;
+      case "d":
+          Console.WriteLine("correct");
+          break;
+      default:
+          Console.WriteLine("try again");
+          break;
+    }
+  }
+}
