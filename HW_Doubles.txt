@@ -2,7 +2,6 @@ using System;
 
 class MainClass {
   public static void Main (string[] args) {
-
     double firstNumber;
 		double secondNumber;
     double thirdNumber;
@@ -15,9 +14,9 @@ class MainClass {
 
 		if (firstNumber >= secondNumber && firstNumber >= thirdNumber)
 		{
-      Console.WriteLine(firstNumber);
+			Console.WriteLine(firstNumber);
 		}
-    else if(secondNumber >= firstNumber && secondNumber >= thirdNumber)
+		else if(secondNumber >= firstNumber && secondNumber >= thirdNumber)
 		{
 			Console.WriteLine(secondNumber);
 		}
