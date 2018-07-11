@@ -1,0 +1,28 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    double firstNumber;
+		double secondNumber;
+    double thirdNumber;
+		Console.WriteLine("Please enter your first number:");
+		firstNumber = double.Parse( Console.ReadLine() );
+		Console.WriteLine("Please enter your second number:");
+		secondNumber = double.Parse(Console.ReadLine());
+		Console.WriteLine("Please enter your third number:");
+		thirdNumber = double.Parse(Console.ReadLine());
+
+		if (firstNumber >= secondNumber && firstNumber >= thirdNumber)
+		{
+			Console.WriteLine(firstNumber);
+		}
+		else if(secondNumber >= firstNumber && secondNumber >= thirdNumber)
+		{
+			Console.WriteLine(secondNumber);
+		}
+		else
+		{
+      Console.WriteLine(thirdNumber);
+    }
+  }
+}
